@@ -50,11 +50,11 @@ header {
 main {
   padding: 30px 0;
 }
-.weather-app {
+
+.current-weather {
   display: flex;
   justify-content: space-between;
 }
-
 .weather-app-city {
   font-size: 38px;
   line-height: 48px;
