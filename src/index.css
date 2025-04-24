@@ -61,8 +61,11 @@ main {
   margin: 0;
 }
 .weather-app-details {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 20px;
+  color: rgb(144, 14, 214);
+}
+.weather-app-details strong {
   color: rgb(144, 14, 214);
 }
 .weather-app-temperature {
