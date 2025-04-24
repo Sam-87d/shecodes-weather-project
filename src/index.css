@@ -5,6 +5,10 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+
+a {
+  color: #289ac8;
+}
 .weather-app {
   background: white;
   max-width: 600px;
@@ -31,7 +35,7 @@ header {
 .search-form-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #885df1;
+  background-color: #289ac8;
   color: white;
   border: none;
   padding: 10px;
@@ -47,4 +51,5 @@ footer {
   text-align: center;
   padding-top: 15px;
   color: rgba(39, 33, 66, 0.4);
+  font-size: 14px;
 }
