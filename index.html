@@ -26,7 +26,7 @@
         </form>
       </header>
       <main>
-        <div class="current-weather">
+        <div class="current-weather-data">
           <div>
             <h1 class="weather-app-city">Hobart</h1>
             <p class="weather-app-details">
@@ -35,7 +35,12 @@
               Humidity: <strong>60%</strong>, Wind:<strong> 7.2km/h</strong>
             </p>
           </div>
-          <div class="weather-app-temperature">☀️20°C</div>
+          <div class="weather-app-temperature">
+            <span class="current-temperature-icon">☀️</span
+            ><span class="current-temperature-value" id="current-temperature"
+              >20</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
         </div>
       </main>
       <footer>
