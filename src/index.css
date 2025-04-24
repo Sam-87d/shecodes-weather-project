@@ -9,6 +9,7 @@ body {
 a {
   color: #289ac8;
 }
+
 .weather-app {
   background: white;
   max-width: 600px;
@@ -46,6 +47,26 @@ header {
   cursor: pointer;
 }
 
+main {
+  padding: 30px 0;
+}
+.weather-app {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-app-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin: 0;
+}
+.weather-app-details {
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(144, 14, 214);
+}
+.weather-app-temperature {
+}
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
