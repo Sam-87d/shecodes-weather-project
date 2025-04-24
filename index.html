@@ -7,40 +7,38 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <form id="search-form">
-        <input
-          placeholder="Enter a city.."
-          class="search-city"
-          type="search"
-          required
-          id="search-city"
-        />
-        <input type="submit" value="Search" class="search-button" />
-      </form>
-    </header>
-
-    <main>
-      <div>
-        <h1>Hobart</h1>
-        <p>Wednesday 11:21, moderate rain Humidity: 87%, Wind: 7.2km/h</p>
-      </div>
-      <div>☀️20°C</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input placeholder="Enter a city.." type="search" required />
+          <input type="submit" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Hobart</h1>
+          <p>
+            Wednesday 11:21, moderate rain
+            <br />
+            Humidity: 87%, Wind: 7.2km/h
+          </p>
+        </div>
+        <div>☀️20°C</div>
+      </main>
+      <footer>
+        <p>
+          Coded by
+          <a href="https://github.com/Sam-87d" target="_blank">Samantha Dwyer</a
+          >, is
+          <a href="https://github.com/Sam-87d/my-weather-app" target="_blank">
+            open-sourced on GitHub</a
+          >
+          and
+          <a href="https://shecodes-weather-sdwyer.netlify.app" target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
-
-  <footer>
-    <p>
-      Coded by
-      <a href="https://github.com/Sam-87d" target="_blank">Samantha Dwyer</a>,
-      is
-      <a href="https://github.com/Sam-87d/my-weather-app" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and
-      <a href="https://shecodes-weather-sdwyer.netlify.app" target="_blank"
-        >hosted on Netlify</a
-      >
-    </p>
-  </footer>
 </html>
