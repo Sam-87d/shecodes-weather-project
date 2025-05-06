@@ -30,7 +30,7 @@ header {
   border-radius: 6px;
   width: 80%;
   padding: 15px 20px;
-  font-size: 20;
+  font-size: 16px;
 }
 
 .search-form-button {
@@ -42,8 +42,6 @@ header {
   padding: 10px;
   line-height: 1;
   border-radius: 5px;
-}
-.search-button hover {
   cursor: pointer;
 }
 
@@ -61,7 +59,7 @@ main {
   margin: 0;
 }
 .weather-app-details {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   font-weight: 500;
 }
