@@ -8,10 +8,12 @@ function refreshTemperature(response) {
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
   let iconElement = document.querySelector("#icon");
+  let countryElement = document.querySelector("#country");
 
   iconElement.innerHTML = `<img src="${response.data.condition.icon_url}"class="current-temperature-icon"/>`;
 
   cityElement.innerHTML = response.data.city;
+  countryElement.innerHTML = response.data.country;
   timeElement.innerHTML = formatDate(date);
   descriptionElement.innerHTML = response.data.condition.description;
   humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
@@ -19,6 +21,7 @@ function refreshTemperature(response) {
   temperatureElement.innerHTML = Math.round(temperature);
 
   getForecast(response.data.city);
+  getForecast(response.data.country);
 }
 function formatDate(date) {
   let minutes = date.getMinutes();
