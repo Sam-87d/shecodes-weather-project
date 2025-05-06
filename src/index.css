@@ -13,7 +13,7 @@ a {
 .weather-app {
   background: white;
   max-width: 600px;
-  margin: 60px auto;
+  margin: 45px auto;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -39,7 +39,7 @@ header {
   background-color: #289ac8;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 10px 30px;
   line-height: 1;
   border-radius: 5px;
   cursor: pointer;
